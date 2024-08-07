@@ -73,4 +73,3 @@ Note:
 
 ## Note
 - Here, i have considered the Ethereum Wallet Address as a wallet ID then get the balance from wallet using the infura API.
-- I have also attached the testing video, please check using the below link (https://www.loom.com/share/082918e35591434faa1b8b4f884a3e9e)
