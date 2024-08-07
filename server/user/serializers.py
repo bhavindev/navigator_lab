@@ -63,4 +63,4 @@ class UserSerializer(serializers.ModelSerializer):
             balance_eth = web3.from_wei(balance_wei, 'ether')
             return str(balance_eth) + ' ETH'
         except Exception as e:
-            return str(e)
+            return "Balance not Available"

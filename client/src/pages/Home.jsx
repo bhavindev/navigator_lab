@@ -30,7 +30,7 @@ export default function Home() {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>{ethereum_wallet_address}</td>
+                                        <td>{!ethereum_wallet_address?'Wallet Address not Available':ethereum_wallet_address}</td>
                                         <td>{ethereum_wallet_balance}</td>
                                     </tr>
                                 </tbody>
